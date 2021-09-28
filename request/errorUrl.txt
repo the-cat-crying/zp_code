@@ -1,0 +1,11 @@
+
+抛出异常： https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww.138top.com%2FUploadFiles%2F2012-03%2Fadmin%2F2012030400232966654.jpg&refer=http%3A%2F%2Fwww.138top.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633766230&t=719b5c00e89b986070d7a62d59089d08
+('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+抛出异常： https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcdn.feeyo.com%2Fnews%2F111109%2F11110909430175.jpg&refer=http%3A%2F%2Fcdn.feeyo.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633766231&t=fa7225287731f96fac044216b4277cfe
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+抛出异常： https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20181121%2Fccd7d7d114e6443ca341bfc3a7845912.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633766240&t=660363fe9a9b01655c73322b802485f2
+("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+抛出异常： https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic.sirenji.com%2Fuserfiles%2Fimage%2F20200410%2F10092442b169b978445295.jpg&refer=http%3A%2F%2Fpic.sirenji.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633766240&t=53a0fb7534fb47752c81ee69e37851bd
+("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))
+抛出异常： https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fcdn.feeyo.com%2Fpic%2F20120915%2F201209151142468747.jpg&refer=http%3A%2F%2Fcdn.feeyo.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1633766251&t=4c30ea839b602a8d6bec59c46e3fc45b
+("Connection broken: ConnectionResetError(104, 'Connection reset by peer')", ConnectionResetError(104, 'Connection reset by peer'))

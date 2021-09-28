@@ -1,0 +1,50 @@
+1.权限设置：
+	chown mysql:mysql -R /var/lib/mysql
+2.初始化:
+	MySQL:mysqld --initialize
+3.验证MySQL安装:
+	mysqladmin --version
+4.Mysql安装成功后，默认的root用户密码为空，你可以使用以下命令来创建root用户的密码：
+	mysqladmin -u root -p456(old) password 123(new);
+5.检查MySQL服务器是否启动： 
+	ps -ef | grep mysqld(显示出来的是进程，不需要的可以用kill杀死进程)
+6.启动MySQL：
+	systemctl start mysqld
+7.查看MySQL运行状态：
+	systemctl status mysqld
+8.进入MySQL:
+	mysql -u root -p123
+9.创建数据库
+	create database 数据库名字;
+    不进入数据库创建
+	mysqladmin -u root -p create 数据库名字
+10.删除数据库
+	drop database 数据库名字;
+    不进入数据库删除
+	mysqladmin -u root -p drop 数据库名字
+11.列出MySQL数据库管理系统的数据库列表;
+	show databases;
+12.选择要操作的Mysql数据库，使用该命令后所有Mysql命令都只针对该数据库
+	use+数据库名
+13.显示指定数据库的所有表,使用该命令前需要使用 use 命令来选择要操作的数据库。
+	show tables;
+14.创建数据表
+	CREATE TABLE runoob_tbl(
+   -> runoob_id INT NOT NULL AUTO_INCREMENT,
+   -> runoob_title VARCHAR(100) NOT NULL,
+   -> runoob_author VARCHAR(40) NOT NULL,
+   -> submission_date DATE,
+   -> PRIMARY KEY ( runoob_id )
+   -> )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+15.查看表结构
+	desc + 数据表名字;
+16.显示数据表的属性，属性类型，主键信息 ，是否为 NULL，默认值等其他信息。
+	show columns from + 数据表名字;
+17.显示数据表的详细索引信息，包括PRIMARY KEY（主键）
+	show index from + 数据表名字;
+18.该命令将输出Mysql数据库管理系统的性能及统计信息。
+	mysql> SHOW TABLE STATUS  FROM RUNOOB;   # 显示数据库 RUNOOB 中所有表的信息
+	mysql> SHOW TABLE STATUS from RUNOOB LIKE 'runoob%';     # 表名以runoob开头的表的信息
+	mysql> SHOW TABLE STATUS from RUNOOB LIKE 'runoob%'\G;   # 加上 \G，查询结果按列打印
+19.删除数据表
+	drop table + 数据表名字;
